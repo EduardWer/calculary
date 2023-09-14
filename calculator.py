@@ -19,7 +19,7 @@ print("Вычесления sin и cos - в РАДИАНАХ")
 while True:
     first_num = input("Введите первое число >> ")
     try:
-        first_num = int(first_num)
+        first_num = float(first_num)
     except ValueError:(
             print("Учите числа"))
 
