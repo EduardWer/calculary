@@ -1,4 +1,3 @@
-# Инженерный колькулятор практос
 import math
 from art import tprint
 
@@ -14,7 +13,8 @@ print("Для работы вы можете использовать дейст
       " root - квадратный корень числа \n"
       " facto - факториал \n"
       " sin - синус \n"
-      " cos - косинус")
+      " cos - косинус\n"
+      "tan - тангенс")
 print("Вычесления sin и cos - в РАДИАНАХ")
 while True:
     first_num = input("Введите первое число >> ")
@@ -82,6 +82,8 @@ while True:
                 print(f"Синус в радианах  введёного числа равен {math.sin(first_num)}")
             case "cos":
                 print(f"Косинус в радианах введёного числа равен {math.cos(first_num)}")
+            case "tan":
+                print(f"Тангенс в радианах равен {math.tan(first_num)}")
             case _:
                 print("Вы где то ошиблись проверьте правильность ввода!")
 
